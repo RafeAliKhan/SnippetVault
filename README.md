@@ -1,7 +1,7 @@
  Snippet Vault
 A personal code snippet manager built for developers who are tired of losing useful code across projects. Save, organize, search, and share code snippets — with syntax highlighting for 20+ languages.
 
-Live Demo: snippet-vault.vercel.app  |  Built by: Rafe Ali Khan
+Live: snippet-vault.vercel.app  |  Built by: Rafe Ali Khan
 
 
 ✨ Features
@@ -26,7 +26,7 @@ A free Supabase account
 
 Installation
 bash# Clone the repository
-git clone https://github.com/yourusername/snippet-vault.git
+git clone https://github.com/RafeAliKhan/snippet-vault.git
 cd snippet-vault
 
 # Install dependencies
