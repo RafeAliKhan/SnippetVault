@@ -1,4 +1,4 @@
- Snippet Vault
+# Snippet Vault
 A personal code snippet manager built for developers who are tired of losing useful code across projects. Save, organize, search, and share code snippets — with syntax highlighting for 20+ languages.
 
 Live: snippet-vault.vercel.app  |  Built by: Rafe Ali Khan
