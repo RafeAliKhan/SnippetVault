@@ -29,9 +29,6 @@ bash# Clone the repository
 git clone https://github.com/RafeAliKhan/snippet-vault.git
 cd snippet-vault
 
-# Install dependencies
-npm install
-
 # Set up environment variables
 cp .env.example .env.local
 Environment Variables
