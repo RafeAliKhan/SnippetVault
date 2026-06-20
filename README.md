@@ -3,6 +3,7 @@ A personal code snippet manager built for developers who are tired of losing use
 
 Live: snippet-vault.vercel.app  |  Built by: Rafe Ali Khan
 
+---
 
 ✨ Features
 
@@ -14,6 +15,7 @@ Public Share Links — Toggle any snippet public and share it via a unique URL
 Dark Mode — Full dark/light theme support
 User Auth — Secure login with personal snippet vaults via Supabase Auth
 
+---
 
 🛠️ Tech Stack
 LayerTechFrontendNext.js 14, React, Tailwind CSSBackend / DBSupabase (PostgreSQL + Auth)Syntax HighlightingPrism.jsSearchFuse.jsDeploymentVercel
@@ -24,10 +26,7 @@ Prerequisites
 Node.js 18+
 A free Supabase account
 
-Installation
-bash# Clone the repository
-git clone https://github.com/RafeAliKhan/snippet-vault.git
-cd snippet-vault
+---
 
 # Set up environment variables
 cp .env.example .env.local
@@ -102,6 +101,7 @@ DashboardSnippet ViewShare LinkShow ImageShow ImageShow Image
  Browser extension for quick save
  Export snippets as JSON
 
+---
 
 🤝 Contributing
 Contributions, issues and feature requests are welcome. Feel free to open an issue or submit a pull request.
@@ -120,5 +120,7 @@ Distributed under the MIT License.
 Rafe Ali Khan
 
 GitHub: @RafeAliKhan
+
+---
 LinkedIn: www.linkedin.com/in/rafe-ali-khan-828b9b331
 Portfolio: https://rafealikhan.github.io/Portfolio/
