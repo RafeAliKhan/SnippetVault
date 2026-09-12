@@ -1,9 +1,6 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { Plus, Search, Copy, Check, Trash2, Pencil } from "lucide-react";
 
-/* ----------------------------------------------------------------------
-   Language catalog
----------------------------------------------------------------------- */
 
 const LANGUAGES = [
   { id: "javascript", label: "JavaScript" },
@@ -44,12 +41,6 @@ const LANG_COLOR = {
   json: "#B0A16E",
   plaintext: "#8A8A82",
 };
-
-/* ----------------------------------------------------------------------
-   Tiny syntax highlighter — comments, strings, keywords, numbers.
-   Built per-language from small regex fragments. Not a full lexer,
-   just enough to make snippets easy to scan.
----------------------------------------------------------------------- */
 
 function strPat(q) {
   return `${q}(?:[^${q}\\\\]|\\\\.)*${q}`;
@@ -188,9 +179,6 @@ function tokensToLines(tokens) {
   return lines;
 }
 
-/* ----------------------------------------------------------------------
-   Small helpers
----------------------------------------------------------------------- */
 
 function uid() {
   return `${Date.now().toString(36)}${Math.random().toString(36).slice(2, 8)}`;
@@ -230,10 +218,6 @@ function makeExample() {
     updatedAt: now,
   };
 }
-
-/* ----------------------------------------------------------------------
-   Small components
----------------------------------------------------------------------- */
 
 function CodeBlock({ code, language }) {
   const lines = useMemo(() => tokensToLines(highlightCode(code, language)), [code, language]);
@@ -384,10 +368,7 @@ function SnippetForm({ initial, onSave, onCancel }) {
   );
 }
 
-/* ----------------------------------------------------------------------
-   Styling
----------------------------------------------------------------------- */
-
+/* for styling*/
 const CSS = `
 .sd-app {
   --bg: #1E2B27;
@@ -565,10 +546,6 @@ const CSS = `
   .sd-app * { transition: none !important; }
 }
 `;
-
-/* ----------------------------------------------------------------------
-   Main app
----------------------------------------------------------------------- */
 
 export default function SnippetDrawer() {
   const hasStorage = typeof window !== "undefined" && !!window.storage;
