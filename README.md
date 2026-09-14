@@ -1,5 +1,6 @@
-# Snippet Vault
-## Snippet Vault | Next.js, React, Supabase, Tailwind CSS, Prism.js, | Live Demo ↗
+
+# Snippet Vault | Next.js, React, Tailwind CSS, js | 
+## Live Demo ↗ https://rafealikhan.github.io/SnippetVault/
 
 A personal code snippet manager built for developers who are tired of losing useful code across projects. Save, organize, search, and share code snippets — with syntax highlighting for 20+ languages.
 
