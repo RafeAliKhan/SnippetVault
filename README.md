@@ -7,7 +7,10 @@ A personal code snippet manager built for developers who are tired of losing use
 Live: snippet-vault.vercel.app  |  Built by: Rafe Ali Khan
 
 ---
+<img width="1131" height="659" alt="image" src="https://github.com/user-attachments/assets/4479f7ad-38ab-446c-9bc7-352d36e48d3e" />
 
+
+---
 ✨ Features
 
 Save & Organize — Store snippets with a title, language tag, and custom labels
