@@ -9,6 +9,7 @@ Built by: Rafe Ali Khan
 ---
 <img width="1131" height="659" alt="image" src="https://github.com/user-attachments/assets/4479f7ad-38ab-446c-9bc7-352d36e48d3e" />
 
+<img width="1120" height="883" alt="image" src="https://github.com/user-attachments/assets/07f0f039-b3e0-41a9-ae5e-b38cf9313f12" />
 
 ---
 ✨ Features
