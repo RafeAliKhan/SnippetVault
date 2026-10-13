@@ -45,13 +45,18 @@ html, body {
   background: var(--bg-well);
   flex-wrap: wrap;
 }
-.sd-brand {
+.sd-brand { 
+   
   font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
-  font-weight: 700;
-  font-size: 15px;
+  font-weight: 00;
+  font-size: 0px;
   letter-spacing: -0.02em;
   color: var(--chalk);
   white-space: nowrap;
+}
+.sd-brand::after {
+  content: "Snippet Vault"; 
+  font-size: 16px; 
 }
 .sd-search {
   flex: 1;
